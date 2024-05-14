@@ -7,6 +7,9 @@ export default class Funcionario extends BaseModel {
 
   @column()
   declare nome: String
+
+  @column()
+  declare cpf: string
   
   @column()
   declare cargo: String

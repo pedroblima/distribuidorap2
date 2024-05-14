@@ -8,7 +8,7 @@ export default class Pedido extends BaseModel {
   @column()
   declare clientes_id: number
 
-  @column()
+  @column.dateTime()
   declare dt_pedido: DateTime
 
   @column()

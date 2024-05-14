@@ -12,7 +12,7 @@ export default class Venda extends BaseModel {
   declare funcionarios_id: number
 
   @column()
-  declare dt_vendas: DateTime
+  declare dt_vendas: Date
 
   @column()
   declare total_valor: number
